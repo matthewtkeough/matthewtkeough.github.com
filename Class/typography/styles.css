@@ -1,0 +1,21 @@
+h1,h2 {
+		font-family: 'Molle', cursive;
+		color: purple;
+		font-weight: normal;
+		font-style: italic;
+		font-variant: small-caps;
+	}
+	
+	p {
+		line-height:1.5em;
+		text-transform: uppercase;
+	}
+	
+/*
+line-height: height between lines of text
+font-size:- size of font
+font-weight: whether something is normal or bold
+font-style - normal or italic
+font-variant- normal or small-caps
+text-transform: uppercase lowercase
+*/
