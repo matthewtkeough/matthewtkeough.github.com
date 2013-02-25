@@ -1,14 +1,15 @@
 h1,h2 {
-		font-family: 'Molle', cursive;
-		color: purple;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: green;
 		font-weight: normal;
 		font-style: italic;
 		font-variant: small-caps;
 	}
 	
 	p {
+		font-family: 'Muli', sans-serif;
 		line-height:1.5em;
-		text-transform: uppercase;
+		text-transform: ;
 	}
 	
 /*
