@@ -1,20 +1,33 @@
-h1,h2 {
-		font-family: 'Source Sans Pro', sans-serif;
-		color: green;
-		font-weight: normal;
-		font-style: italic;
-		font-variant: small-caps;
-	}
+h1,h2 
+		{
+			font-family: 'Source Sans Pro', sans-serif;
+			color: green;
+			font-weight: normal;
+			font-style: italic;
+			font-variant: small-caps;
+		}
 	
-	p {
-		font-family: 'Muli', sans-serif;
-		line-height:1.5em;
-		text-transform: ;
-	}
-	
+p
+		{
+			font-family: 'Muli', sans-serif;
+			line-height:1.5em;
+			text-transform: ;
+		}
+
+blockquote
+		{
+			font-size: 16pt;
+			font-style: italic;
+			font-weight: bold;
+			line-height: 1.5;
+			font-variant: small-caps;
+			text-align: left;
+		}
+		
+
 /*
 line-height: height between lines of text
-font-size:- size of font
+font-size:- size of font pt
 font-weight: whether something is normal or bold
 font-style - normal or italic
 font-variant- normal or small-caps
