@@ -17,11 +17,10 @@ p
 blockquote
 		{
 			font-size: 16pt;
-			font-style: italic;
-			font-weight: bold;
 			line-height: 1.5;
-			font-variant: small-caps;
-			text-align: left;
+			text-align: center;
+			font-family:'Nothing You Could Do', cursive;
+			font-weight: bold;
 		}
 		
 
@@ -32,4 +31,7 @@ font-weight: whether something is normal or bold
 font-style - normal or italic
 font-variant- normal or small-caps
 text-transform: uppercase lowercase
+padding-right: 50pt;
+font-style: italic;
+font-variant: small-caps;
 */
