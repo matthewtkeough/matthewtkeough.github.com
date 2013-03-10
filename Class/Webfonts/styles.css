@@ -1,0 +1,37 @@
+h1,h2 
+		{
+			font-family: 'Source Sans Pro', sans-serif;
+			color: green;
+			font-weight: normal;
+			font-style: italic;
+			font-variant: small-caps;
+		}
+	
+p
+		{
+			font-family: 'Muli', sans-serif;
+			line-height:1.5em;
+			text-transform: ;
+		}
+
+blockquote
+		{
+			font-size: 16pt;
+			line-height: 1.5;
+			text-align: center;
+			font-family:'Nothing You Could Do', cursive;
+			font-weight: bold;
+		}
+		
+
+/*
+line-height: height between lines of text
+font-size:- size of font pt
+font-weight: whether something is normal or bold
+font-style - normal or italic
+font-variant- normal or small-caps
+text-transform: uppercase lowercase
+padding-right: 50pt;
+font-style: italic;
+font-variant: small-caps;
+*/
