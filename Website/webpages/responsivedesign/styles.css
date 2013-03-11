@@ -1,5 +1,5 @@
 /*
- * Default styles
+ * Default styles width 0-600 (includes 300)
  */
 @media screen {
 
@@ -13,7 +13,7 @@ body {background-color: white;
 	header {background-color: #36c;
 			padding: 10px;
 	       }
-	    
+		
 	Header h1 {margin: 0;
 			   }
 					nav {background-color: #38c;
@@ -28,12 +28,18 @@ body {background-color: white;
 							 padding: 10px;
 							}
 			 }
+	footer {background-color: #36C;
+			padding: 10px;
+		   }
 
 /*
- * 500px and wider
+ * 660px and wider
  */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 
+	header {background-color: orange;
+			padding: 10px;
+	       }
 	nav{
 		float:left;
 		width: 30%; 
@@ -56,16 +62,22 @@ footer{clear:both;
  */
 @media screen and (min-width: 768px) {
 
+header {background-color: Green;
+			padding: 10px;
+	       }
 
 
 }
 
 
 /*
- * Print styles
+ * 960px and wider
  */
-@media print {
-
+ @media screen and (min-width: 960px) {
+header {background-color: Purple;
+			padding: 10px;
+	       }
 
 
 }
+
