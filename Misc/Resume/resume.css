@@ -8,10 +8,25 @@
  	text-align:center;
  }
  
+ body
+ {
+ 	t:2000
+ }
  p 
  {
  	font-size: 12pt;
  	text-align: left;
  }
  	
+ div
+ {
+ 	background-color: tan;
+ 	border: 10pt;
  
+ }
+ 
+ blockquote
+ {
+ 	text-align:center;
+ 	width: 500pt;
+ }
