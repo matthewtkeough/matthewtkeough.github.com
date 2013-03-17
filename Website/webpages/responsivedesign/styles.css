@@ -3,81 +3,114 @@
  */
 @media screen {
 
-html{background-color: #ccc;
+html{
+	  background-color: #cccc;
 	}
 
-body {background-color: white;
+body {
+	  background-color: white;
 	  padding:20x;
-	  }
+	 }
 
-	header {background-color: #36c;
+	header {
+			background-color: #36c;
 			padding: 10px;
 	       }
 		
-	Header h1 {margin: 0;
+	Header h1 {
+				margin: 0;
 			   }
-					nav {background-color: #38c;
-					padding-top: 5px;
-					padding-bottom:5px;
-					text-align:center;
-						}
-					nav ul {list-style:none;
-							padding-left: 0;
-						   }
-					nav li  {display:inline;
-							 padding: 10px;
-							}
-			 }
-	footer {background-color: #36C;
-			padding: 10px;
-		   }
+	
+	nav {
+		  background-color: #38c;
+		  padding-top: 5px;
+		  padding-bottom:5px;
+		  text-align:center;
+		}
+			nav ul {
+					list-style:none;
+					padding-left: 0;
+					}
+					
+			nav li  {
+					  display:inline;
+					  padding: 10px;
+					}
+footer {
+		 background-color: #36C;
+		 padding: 10px;
+	   }
+}
+
+
+
 
 /*
  * 660px and wider
  */
 @media screen and (min-width: 600px) {
 
-	header {background-color: orange;
-			padding: 10px;
-	       }
-	nav{
-		float:left;
-		width: 30%; 
+header {
+		 background-color: orange;
+		 padding: 10px;
+	   }
+
+nav{
+	float:left;
+	width: 30%;
+	}
+	
+nav a{
+	   display:block;
+	   padding: 10px;
+	 }
+
+#content{
+		float:right;
+		width: 60%;
 		}
-	nav a {
-			display:block;
-			padding: 10px;
-		  }
-	#content{
-			 float:right;
-			 width: 60%;
-			}
-footer{clear:both;
+
+footer{
+	   clear:both;
 	  }
 
 }
+
+
+
+
+
+
 
 /*
  * 768px and wider
  */
 @media screen and (min-width: 768px) {
 
-header {background-color: Green;
-			padding: 10px;
-	       }
-
+header {
+		background-color: Green;
+		padding: 10px;
+	   }
 
 }
+
+
+
+
+
+
+
 
 
 /*
  * 960px and wider
  */
  @media screen and (min-width: 960px) {
-header {background-color: Purple;
-			padding: 10px;
-	       }
 
-
+header {
+		background-color: Purple;
+		padding: 10px;
+	    }
+	    
 }
 
