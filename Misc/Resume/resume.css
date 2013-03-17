@@ -1,32 +1,60 @@
 /*
  * resume.css
  */
- 
- header
- {
+
+html{
+	background-color: #004600;
+	background-attachment: fixed;
+	background-repeat: no repeat;
+	background-size: cover:
+}
+
+body {
+ 	font-family: helvetica, verdana, sans-serif;
+ 	background-color: rgba(255, 255, 255, 1);
+ 	width: 90%;
+ 	margin:30px auto;
+ 	padding: 30px;
+ 	
+ }
+
+ header {
  	font-size:36pt;
  	text-align:center;
  }
- 
- body
- {
- 	t:2000
- }
- p 
- {
+
+h2.contactinfo {
+	font-family: georgia, serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-family: georgia, serif;
+	font-size: 28px;
+}
+
+div.indent{
+	margin-left: 25px;
+}
+
+p {
  	font-size: 12pt;
  	text-align: left;
  }
  	
- div
- {
+ div.text {
  	background-color: tan;
  	border: 10pt;
- 
  }
  
- blockquote
- {
+ blockquote {
  	text-align:center;
- 	width: 500pt;
+ 	text-indent:10px;
+ 	margin-left: 100px;
+ 	margin-right: 100px;
+ 	font-style: italic;
+ }
+ 
+ a:visited{color: #A63600;
  }
