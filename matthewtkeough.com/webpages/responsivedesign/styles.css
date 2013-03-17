@@ -1,28 +1,22 @@
-/*
- * Responsive Design CSS
-*/
- 
- 
-/*
- * Default styles width 0-600 (includes 300)
-*/
+
 @media screen {
 html{
-	  background-color: #cccc;
+	 margin: 0px;
 	}
-
+	
 body {
 	  background-color: white;
-	  padding:20x;
+	  margin: 0px;
 	 }
 
 	header {
 			background-color: #36c;
-			padding: 10px;
+			margin: 0px;
+			padding: 5px;
 	       }
 		
 	Header h1 {
-				margin: 0;
+				margin: 0px;
 			   }
 	
 	nav {
@@ -41,6 +35,7 @@ body {
 					  padding: 10px;
 					}
 	div#content{
+				 margin: 10px;
 				 
 	
 			   }
@@ -79,7 +74,7 @@ nav a{
 	 }
 
 #content{
-		float:right;
+		float: right;
 		width: 60%;
 		}
 
@@ -101,7 +96,6 @@ footer{
 @media screen and (min-width: 768px) {
 header {
 		background-color: Green;
-		padding: 10px;
 	   }
 
 }
@@ -120,7 +114,6 @@ header {
  @media screen and (min-width: 960px) {
 header {
 		background-color: Purple;
-		padding: 10px;
 	    }
 	    
 }
