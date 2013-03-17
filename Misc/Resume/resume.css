@@ -38,6 +38,13 @@ div.indent{
 	margin-left: 25px;
 }
 
+div.image{
+	float: right;
+	width:275; 
+	height: 297;
+	padding: 6px;
+}
+
 p {
  	font-size: 12pt;
  	text-align: left;
