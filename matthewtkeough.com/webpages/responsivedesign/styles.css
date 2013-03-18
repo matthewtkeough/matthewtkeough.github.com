@@ -4,9 +4,9 @@
  
  
  /*
- * 0-600px (includes 300px)
+ * 0-659px (includes 300px)
  */
-@media screen {
+@media screen{
 html{
 	 margin: 0px;
 	}
@@ -56,7 +56,10 @@ body {
 	 	 }
 	 	 
 	div#image{
-			  margin-bottom: 0.5em;
+			  margin: 0.5em;
+			  background-color: #3D9AD1;
+			  border: 5px solid #3D9AD1;
+			  max-width: 90%;
 			  }
 	
 	div#caption{
@@ -90,6 +93,8 @@ footer {
 		 background-color: #3D9AD1;
 		 padding: 10px;
 		 text-align: center;
+		 float: none;
+		 width: auto
 	   }
 }
 
@@ -101,7 +106,6 @@ footer {
  */
 @media screen and (min-width: 600px) {
 header {
-		 background-color: orange;
 		 padding: 10px;
 	   }
 
@@ -111,17 +115,28 @@ nav{
 	}
 	
 nav a{
-	   display:block;
+	   display: block;
 	   padding: 10px;
 	 }
 
-#content{
-		float: right;
-		width: 60%;
-		}
+div#lefttext{
+			 float: right;
+			 width: 60%;
+			 font-size: 14pt;
+			}
+
+div#caption{
+			 font-size: medium;
+			}
+		
+div#centertext{
+				clear: both;
+				width: 100%;
+				font-size: 12pt;
+			  }
 
 footer{
-	   clear:both;
+	   clear: both;
 	  }
 
 }
