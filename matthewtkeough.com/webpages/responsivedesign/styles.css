@@ -1,5 +1,5 @@
 /*
- * Responsive Design Webpage
+ * Responsive Design CSS
  */
  
  
@@ -14,24 +14,26 @@ html{
 body {
 	  background-color: white;
 	  margin: 0px;
+	  font-size: medium;
+	  text-align: justify;
 	 }
 
 	header {
-			background-color: #3d9ad1;
+			background-color: #3D9AD1;
 			margin: 0px;
-			padding: 5px;
 			text-align: center;
 	       }
 		
 	Header h1 {
-				margin: 0px;
-			   }
-	
+				margin: 0px; 
+			  }
+
 	nav {
 		  background-color: #64A8D1;
 		  padding-top: 5px;
 		  padding-bottom:5px;
 		  text-align:center;
+		  font-size: 14pt;
 		}
 			nav ul {
 					list-style:none;
@@ -42,22 +44,52 @@ body {
 					  display:inline;
 					  padding: 10px;
 					}
-	a:visited {color: #A65B00}
+	a:link {color: #A65B00}
+	a:visited {color: #CC3500}
+	
 	
 	div#content{
-				 margin: 10px;
-				 
+				 margin: 20px;
+			   }
+	 img {
+	 	  max-width: 100%;
+	 	 }
+	 	 
+	div#image{
+			  margin-bottom: 0.5em;
+			  }
 	
+	div#caption{
+				 text-align: left;
+				 font-style: italic;
+				 font-size: small;
 			   }
 	
-	image#image{
-				 
+	h2 {
+		 text-align: left;
+		 color: #3D9AD1;
+	   }
 	
+	h3 {
+		 text-align: left;
+		 color: #3D9AD1;
+	   }
+	   
+	blockquote {
+				font-style: italic;
+				margin: 30px;
+				text-align: left;
+				font-family: times new roman, serif;
 			   }
+			   
+	div#list{
+			  text-align: left;
+			}
 	
 footer {
-		 background-color: #3d9ad1;
+		 background-color: #3D9AD1;
 		 padding: 10px;
+		 text-align: center;
 	   }
 }
 
@@ -107,7 +139,12 @@ footer{
 header {
 		background-color: Green;
 	   }
-
+	   
+blockquote {
+				line-height: 1.5;
+				text-align: center;
+				font-style: italic;
+			   }
 }
 
 
