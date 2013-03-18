@@ -1,4 +1,11 @@
-
+/*
+ * Responsive Design Webpage
+ */
+ 
+ 
+ /*
+ * 0-600px (includes 300px)
+ */
 @media screen {
 html{
 	 margin: 0px;
@@ -10,9 +17,10 @@ body {
 	 }
 
 	header {
-			background-color: #36c;
+			background-color: #3d9ad1;
 			margin: 0px;
 			padding: 5px;
+			text-align: center;
 	       }
 		
 	Header h1 {
@@ -20,7 +28,7 @@ body {
 			   }
 	
 	nav {
-		  background-color: #38c;
+		  background-color: #64A8D1;
 		  padding-top: 5px;
 		  padding-bottom:5px;
 		  text-align:center;
@@ -34,6 +42,8 @@ body {
 					  display:inline;
 					  padding: 10px;
 					}
+	a:visited {color: #A65B00}
+	
 	div#content{
 				 margin: 10px;
 				 
@@ -46,7 +56,7 @@ body {
 			   }
 	
 footer {
-		 background-color: #36C;
+		 background-color: #3d9ad1;
 		 padding: 10px;
 	   }
 }
