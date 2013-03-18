@@ -4,7 +4,7 @@
  
  
  /*
- * 0-659px (includes 300px)
+ * 0-659px (includes 300px) smartphone
  */
 @media screen{
 html{
@@ -48,7 +48,11 @@ body {
 	a:visited {color: #CC3500}
 	
 	
-	div#content{
+	div#righttext{
+				 margin: 20px;
+			   }
+			   
+	div#centertext{
 				 margin: 20px;
 			   }
 	 img {
@@ -59,7 +63,7 @@ body {
 			  margin: 0.5em;
 			  background-color: #3D9AD1;
 			  border: 5px solid #3D9AD1;
-			  max-width: 90%;
+			  max-width: 80%;
 			  }
 	
 	div#caption{
@@ -81,7 +85,7 @@ body {
 	blockquote {
 				font-style: italic;
 				margin: 30px;
-				text-align: left;
+				text-align: center;
 				font-family: times new roman, serif;
 			   }
 			   
@@ -89,12 +93,12 @@ body {
 			  text-align: left;
 			}
 	
-footer {
+footer{
 		 background-color: #3D9AD1;
 		 padding: 10px;
 		 text-align: center;
 		 float: none;
-		 width: auto
+		 width: auto;
 	   }
 }
 
@@ -102,7 +106,7 @@ footer {
 
 
 /*
- * 660px and wider
+ * 660px and wider Tablet
  */
 @media screen and (min-width: 600px) {
 header {
@@ -129,8 +133,8 @@ div#righttext{
 
 div#centertext{
 				clear: both;
-				width: 100%;
-				font-size: 12pt;
+				max-width: 100%;
+				font-size: 14pt;
 				padding-top: 40px;
 				line-height: 1.5;
 				padding-right: 5px;
@@ -150,8 +154,19 @@ div#caption{
 			}
 h2{
 	padding-top: 20px;
+	text-align: left;
   }
 
+h3{
+	text-align: left;
+}
+blockquote{
+			text-align: center;
+			font-style: italic;
+			line-height: 1;
+			margin-left: 75px;
+			margin-right: 75px;
+			}
 footer{
 	   clear: both;
 	  }
@@ -165,11 +180,11 @@ footer{
 
 
 /*
- * 768px and wider
+ * 768px and wider  Small Computer
  */
 @media screen and (min-width: 768px) {
 header {
-		background-color: Green;
+		font-size: 28;
 	   }
 
 nav{
@@ -177,31 +192,39 @@ nav{
 	width: 20%;
 	}
 	
-nav a{
-	   display: block;
-	   padding: 10px;
+nav li{
+	   font-size: 16pt;
 	 }
 
 div#righttext{
-			 width: 80%;
+			 margin: 0 20 0 10;
+			 width: 75%;
 			 font-size: 14pt;
 			 line-height: 1.5;
-			 padding-left: 3px;
-			 padding-right: 3px;
-			 padding-top: 20px;
+			 padding-top: 50px;
 			}
 
 div#centertext{
 				max-width: 100%;
 				font-size: 14pt
-				padding-right: 200px;
-				padding-left; 200px;
+				margin-left: 20px;
+				margin-right: 20px;
 			  }
 			
 blockquote{
 			text-align: center;
 			font-style: italic;
+			line-height: 1;
+			margin-left: 165px;
+			margin-right: 165px;
 			}
+div#list{
+		 padding-left: 100px;
+		}		
+footer{
+		font-size: 20pt;
+	  }
+
 }
 
 
@@ -210,15 +233,43 @@ blockquote{
 
 
 
-
-
 /*
- * 960px and wider
+ * 960px and wider Big Screen Computer
  */
  @media screen and (min-width: 960px) {
 header {
-		background-color: Purple;
-	    }
+		font-size: 36;
+	   }
+	
+nav li{
+	   font-size: 18pt;
+	 }
+h2{
+	  text-align: center;
+	  font-size: 36pt;
+	}
+
+h3{
+	  text-align: center;
+	  font-size: 24pt;
+	}
+div#righttext{
+			 margin: 0 32 0 10;
+			 width: 75%;
+			 font-size: 20pt;
+			 line-height: 2;
+			 padding-top: 50px;
+			}
+div#centertext{
+				margin: 0 32 0 10;
+				font-size: 20pt;
+				line-height: 2;
+			  }
+
+div#list{
+		 padding-left: 300px;
+		 line-height: 1.5;
+		}
 	    
 }
 
